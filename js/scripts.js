@@ -1,15 +1,22 @@
 $(document).ready(function() {
-   $("form#formOne").submit(function(event) {
-     var school = $("select#school").val();
-     var years = $("select#years").val();
+  $("form#formOne").submit(function(event) {
+    var plan = $("select#plan").val();
+    var exprienced = $("select#exprienced").val();
+    var passion = $("select#passion").val();
 
-    if (school  === 'not1' && years === '1'); {
-      
+
+    if (plan === 'no')
+      {
+      $('#trail1').show();
     }
-
-      $("#trail1").show();
-
-
+    if (exprienced === 'no1')
+      {
+      $('#trail1').show();
+    }
+    if (passion === 'yes2')
+      {
+      $('#trail1').show();
+    }
       event.preventDefault();
   });
 });
