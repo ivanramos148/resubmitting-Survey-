@@ -8,7 +8,6 @@ $(document).ready(function() {
     var dif = $("select#dif").val();
 
 
-
     if (plan === 'yes')
       {
     };
@@ -41,17 +40,18 @@ $(document).ready(function() {
     };
     if (prefer === 'boot')
       {
-      $('#trail2').show(); {
-    };
-    event.preventDefault();
-  }else{
+      $('#trail2').show();
+      event.preventDefault();
+    }else{
+
       if (dif === 'hard')
         {
       $('#path').show(); {
     };
     event.preventDefault();
-};
-};
-};
-  });
+}
+
+}
+}
+});
 });
