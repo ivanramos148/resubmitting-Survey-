@@ -22,8 +22,7 @@ $(document).ready(function() {
     };
     if (prefer === 'college')
       {
-      $('#trail1').show(); {
-    };
+      $('#trail1').show();
     event.preventDefault();
   }else{
     if (plan === 'no')
