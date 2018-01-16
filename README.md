@@ -1,6 +1,6 @@
-# _{Survey}_
+Survey
 
-#### _{Survey to determine which Language is the best for the user }, {Newest version}_
+Survey to determine which Language is the best for the user.  Newest version
 
 #### By _**{Done by Ivan Ramos}**_
 
